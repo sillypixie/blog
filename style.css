@@ -1,0 +1,161 @@
+body {
+    background-image:url(135d7d9279e785bf054c67282081a541.jpg);
+    font-family:Ms Ui Gothic;
+    color:#5e5e5e;
+    font-size:1em;
+    line-height:19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+#TEMPLATE-LAYOUT {
+    width:1000px;
+    height:auto;
+    padding:5px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    margin: auto;
+    justify-content: center;  
+}
+header {
+    width:70%;
+    height:150px;
+    background: rgb(255,189,200);
+    background-image: url(Alpha_Beta_Gamer.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width:2px;
+    border-style:ridge;
+    border-color:pink;
+    overflow: hidden;
+}
+.shadow{
+    text-shadow: rgb(255, 255, 255) 4px 0px 0px, rgb(255, 255, 255) 3.87565px 0.989616px 0px, rgb(255, 255, 255) 3.51033px 1.9177px 0px, rgb(255, 255, 255) 2.92676px 2.72656px 0px, rgb(255, 255, 255) 2.16121px 3.36588px 0px, rgb(255, 255, 255) 1.26129px 3.79594px 0px, rgb(255, 255, 255) 0.282949px 3.98998px 0px, rgb(255, 255, 255) -0.712984px 3.93594px 0px, rgb(255, 255, 255) -1.66459px 3.63719px 0px, rgb(255, 255, 255) -2.51269px 3.11229px 0px, rgb(255, 255, 255) -3.20457px 2.39389px 0px, rgb(255, 255, 255) -3.69721px 1.52664px 0px, rgb(255, 255, 255) -3.95997px 0.56448px 0px, rgb(255, 255, 255) -3.97652px -0.432781px 0px, rgb(255, 255, 255) -3.74583px -1.40313px 0px, rgb(255, 255, 255) -3.28224px -2.28625px 0px, rgb(255, 255, 255) -2.61457px -3.02721px 0px, rgb(255, 255, 255) -1.78435px -3.57996px 0px, rgb(255, 255, 255) -0.843183px -3.91012px 0px, rgb(255, 255, 255) 0.150409px -3.99717px 0px, rgb(255, 255, 255) 1.13465px -3.8357px 0px, rgb(255, 255, 255) 2.04834px -3.43574px 0px, rgb(255, 255, 255) 2.83468px -2.82216px 0px, rgb(255, 255, 255) 3.44477px -2.03312px 0px, rgb(255, 255, 255) 3.84068px -1.11766px 0px, rgb(255, 255, 255) 3.9978px -0.132717px 0px;
+}
+.BOARD {
+    width:29.3%;
+    height:154px;
+    background-image:url(d1190e3105162aae9586a393164e83c1.gif);
+    background-size: cover;
+    border-width:2px;
+    border-style:ridge;
+    border-color:pink;
+    padding:5px;
+    box-sizing:border-box;
+    border-right:0px;
+}
+.BOARD p {
+    margin:0px;
+    padding:0px;
+}
+.marquee-box {
+    width:100%;
+    height:18px;
+    padding:3px;
+    border-width:2px;
+    border-style:ridge;
+    border-color:pink;
+    margin-top:5px;
+    background-color:rgb(231, 204, 204);
+}
+.navigation {
+    width:22%;
+    min-height:430px;
+    border-width:2px;
+    border-style:ridge;
+    border-color:pink;
+    margin-top:5px;
+    margin-left:5px;
+    background:white;
+    overflow:hidden;
+    position: relative  
+}
+.button {
+    width:100%;
+    background: rgb(233, 238, 217);
+    height:auto;
+    font-size:20px;
+    padding:5px;
+    text-align:center;
+    border-bottom:3px ridge pink;
+    font-weight:600;
+}
+ul {
+    list-style-type:none;
+    padding:3.5px;
+    margin:0px;
+}
+.content {
+    width:100%;
+    height:240px;
+    border-width:2px;
+    border-style:ridge;
+    border-color:pink; 
+    margin-top:5px;
+    background-image:url('9c6a3cdfaff6d5936b20787a5b919ee9.jpg');
+    padding:10px;
+    box-sizing:border-box;
+}
+.container {
+    width:100%;
+    height:100%;
+    border-width:2px;
+    border-style:ridge;
+    border-color:pink; 
+    background:rgb(231, 204, 204);
+    padding:5px;
+    box-sizing:border-box;
+    overflow-y:auto;
+}
+.container p {
+    margin:0px;
+    padding:0px;
+    margin-top:5px;
+}
+.the-section {
+    width:76.6%;
+    height:430px;  
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-left {
+    width:49.4%;
+    padding:5px;
+    box-sizing:border-box;  
+    border-style:ridge;
+    border-color:pink; 
+    background:beige;
+    margin-top:5px;
+    min-height:185px;
+    background-image:url('0fde18cbfae2de6be6454664935e975d.jpg');
+    background-size: cover;
+    background-position: center;
+    padding:10px;  
+}
+.box-right {
+    width:49.4%;
+    padding:5px;
+    box-sizing:border-box;  
+    border-style:ridge;
+    border-color:pink; 
+    background:beige;
+    margin-top:5px;
+    min-height:185px;
+    margin-left:5px;
+    background-image:url('0fde18cbfae2de6be6454664935e975d.jpg');
+    background-size: cover;
+    background-position: center;
+    padding:10px;  
+}
+.box-left .button {
+    margin:-5px;
+}
+.box-right .button {
+    margin:-5px;
+}

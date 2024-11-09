@@ -1,0 +1,102 @@
+body {
+    margin: 20;
+    padding: 20;
+    background-image:url(17e14b79df28afd24f0e9044766307c2.jpg);
+    font-family:Ms Ui Gothic;
+    min-height: 100vh;
+}
+header {
+    grid-area: header;
+    color: rgb(210, 224, 251);
+    text-shadow: 1px 1px 2px black, 0 0 1em powderblue, 0 0 0.2em powderblue;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1em;
+    height:150px;
+    background-image: url(4710.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-width:2px;
+    border-style:ridge;
+    border-color:palevioletred;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#TEMPLATE-LAYOUT {
+    display: grid;
+    grid-template-areas:"header header"
+                        "box" "box"
+                        "main navigation";
+    grid-template-columns: 3fr
+1fr;
+    grid-template-rows: auto
+1fr;
+    min-height: 100vh;
+    gap: 10px;
+}
+.marquee-box {
+    grid-area: box;
+    height:18px;
+    padding:3px;
+    background-color: aliceblue;
+    border-width:2px;
+    border-style:ridge;
+    border-color:palevioletred;
+    background: linear-gradient(84deg, rgb(210, 224, 251) 50%, rgb(231, 202, 245) 69%, rgba(252,206,242,1) 91%);
+    margin-top:5px;
+}
+.content {
+    height:240px; 
+    margin-top:5px;
+    padding:10px;
+}
+.container {
+    height:100%;
+    border-style:ridge;
+    border-color:pink; 
+    background:beige;
+    padding:5px;
+    overflow-y:auto;
+}
+.container p {
+    margin:0px;
+    padding:0px;
+    margin-top:5px;
+}
+.main-layout{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.navigation {
+    margin-top: 15px;
+    background-color: white;
+    border: 2px ridge pink; 
+    overflow-y: auto;  
+}
+.button {
+    background: beige;
+    height:auto;
+    font-size:20px;
+    padding:5px;
+    text-align:center;
+    border-bottom:3px ridge pink;
+    font-weight:600;
+}
+ul {
+    width: 150px;
+    background: beige;
+    list-style-type:none;
+    padding:3.5px;
+    margin:5px;
+    border: 3px ridge pink;
+}
+.text{
+    display: flex;
+    background: beige;
+    padding:3.5px;
+    margin:5px;
+    border: 3px ridge pink;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test layout</title>
+    <style>
+        body{
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            background-color: aliceblue;
+        }
+        .grid-layout{
+            display: grid;
+            grid-template-areas: "header header"
+                                 "main navigation";
+            grid-template-columns: 3fr
+            1fr;
+            grid-template-rows: auto
+            1fr;
+            min-height: 100vh;
+            gap: 10px;
+        }
+        header{
+            grid-area: header;
+            background-color: lightblue;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            border-bottom: 2px solid powderblue;
+        }
+        .main-section{
+            grid-area: main;
+            background-color: aqua;
+            padding: 20px;
+            border: 2px solid powderblue;
+            overflow-y: auto;
+        }
+        .navigation{
+            grid-area: navigation;
+            background-color: antiquewhite;
+            padding: 20px;
+            border: 2px ridge pink;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="grid-layout">
+    <header>
+        HEADER
+    </header>
+
+    <div class="main-section">
+        <h2>mon contenu"e</h2>
+        <p>immage et toutiquanti</p>
+    </div>
+
+    <nav class="navigation">
+        <h2>NAVIGATION</h2>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
